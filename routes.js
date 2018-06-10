@@ -14,7 +14,7 @@ class Routes{
 	}
 	
 	appRoutes(){
-		this.app.get('/api/action', this.rateLimiter.usingRemoteAddress(), (request, response) => {
+		this.app.get('/users', this.rateLimiter.usingRemoteAddress(), (request, response) => {
             response.status(200).json('You are welcome here.');
 		});
 		this.app.get('/user-details/:id', this.rateLimiter.asGetParamter(), (request, response) => {

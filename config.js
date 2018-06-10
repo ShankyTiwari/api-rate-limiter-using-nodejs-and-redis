@@ -16,7 +16,7 @@ class Limiter{
      */
     usingRemoteAddress() {
         return this.limiter({
-            path: '/api/action',
+            path: '/users',
             method: 'get',
             lookup: ['connection.remoteAddress'],
             total: 5,

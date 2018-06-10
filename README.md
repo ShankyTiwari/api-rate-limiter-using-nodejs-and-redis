@@ -1,4 +1,4 @@
-# NodeJS API for private chatting app built using Angular
+# API Rate limiting in Nodejs using Express and Redis
 
 This is a demonstration of API Rate limiting in Nodejs using Express and Redis.
 
