@@ -10,6 +10,4 @@ The below commands to install this API.
 
 
 ## Explanation and Blog Post
-I have written a complete article on this application in three parts, for more details and Code explanation.
-
-Coming Soon.
+I have written a complete and well explained article on this application in three parts, for more details and Code explanation. [Click here](http://www.codershood.info/2018/06/16/creating-api-rate-limiter-in-nodejs-using-express-and-redis/) to Read the article.
